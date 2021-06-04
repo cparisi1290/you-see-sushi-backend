@@ -1,0 +1,2 @@
+class Sashimi < ApplicationRecord
+end
