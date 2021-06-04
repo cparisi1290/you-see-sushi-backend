@@ -1,4 +1,3 @@
-class SushiRollSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :name, :image, :description, :order_id
+class SushiRollSerializer < ActiveModel::Serializer
+  attributes :id, :name, :image, :description, :order_id
 end
