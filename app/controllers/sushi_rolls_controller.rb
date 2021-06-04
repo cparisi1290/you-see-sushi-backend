@@ -1,4 +1,4 @@
-class SushiRollsController < ApplicationController
+class Api::V1::SushiRollsController < ApplicationController
   before_action :set_sushi_roll, only: [:show, :update, :destroy]
 
   # GET /sushi_rolls

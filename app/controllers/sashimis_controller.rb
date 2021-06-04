@@ -1,4 +1,4 @@
-class SashimisController < ApplicationController
+class Api::V1::SashimisController < ApplicationController
   before_action :set_sashimi, only: [:show, :update, :destroy]
 
   # GET /sashimis
