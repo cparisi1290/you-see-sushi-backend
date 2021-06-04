@@ -1,4 +1,3 @@
-class OrderSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :total
+class OrderSerializer < ActiveModel::Serializer
+  attributes :id, :total
 end
